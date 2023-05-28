@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- datos del autor -->
+    <meta name="author"content="Alejandro Ponce">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Link Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Google Fonts(estilo de letras) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    
+    <title>Alejandro Ponce|Desarrollo web front-end</title>
+</head>
+<body>
+
+<!-- barra de navegacion -->
+<nav class="navbar navbar-expand-md navbar-light ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/icono.png" width="50" alt="logo">  
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Sobre Mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonios</a>  
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Contacto</a> 
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav> 
+<!-- seccion hero -->
+<section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-desarrolador rounded-circle" src="imagenes/person-circle.svg" width="100" alt="foto">
+        <h1>Hola,Soy Alejandro Ponce</h1>
+        <h2>Desarrollo Sitios Webs</h2>
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid"src="imagenes/html-imagen.jpg" alt="laptop">
+
+    </div>
+ <!-- Sobre mi -->
+ <section id="sobre-mi" class="sobre-mi seccion-oscura">
+  <div class="contenedor">
+    <h2 class="seccion-titulo">Conoce a Alejandro Ponce</h2>
+    <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. Donec et venenatis nunc, vel hendrerit ex. Vestibulum sapien ipsum, rutrum eget est et, ultricies sagittis urna. In non volutpat est. Vestibulum diam sapien, ultrices et euismod at, ultrices ut odio. Nullam in massa et elit ultrices suscipit. Proin lacinia leo ac posuere placerat.</p>
+  </div>
+</section>
+<!-- Experiencia -->
+<section class="experiencia seccion-clara">
+  <div class="container text-center">
+    <div class="row">
+      <!-- Desarrollo Web -->
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">Desarrollo Web</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">HTML</span>
+          <span class="badge text-bg-primary">CSS</span>
+          <span class="badge text-bg-primary">JavaScript</span>
+          <span class="badge text-bg-primary">React</span>
+        </div>
+      </div>
+               <!-- Articulos -->
+               <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Artículos</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">Escribir</span>
+                  <span class="badge text-bg-primary">Editar</span>
+                  <span class="badge text-bg-primary">Blogs</span>
+                </div>
+              </div>
+              <!-- Estudiante -->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Estudiante</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">Desarrollo Web</span>
+                  <span class="badge text-bg-primary">Python</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- Proyectos -->
+        <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+          <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+          <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+          <!-- Galeria de Proyectos -->
+          <div class="container text-center proyectos-contenedor">
+            <div class="row">
+              <!-- Proyecto 1 -->
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                  <img src="DSC_0435-removebg-preview.png" alt="Proyecto 1">
+                  <a href="https://alejandroponce00.github.io/BARBY/" target="_blank" rel="NARNY">
+                    <i class="bi bi-github"></i>
+                  <div class="overlay">
+                    <p>Proyecto 1</p>
+                    <div class="iconos-contenedor">
+                      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-laptop"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+              Ver más proyectos
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </a>
+        </section>
+          
+          <!-- Carrusel -->
+          <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto de Gino">
+                  <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                  <div class="testimonio-info">
+                    <p class="cliente">Gino</p>
+                    <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+                  </div>
+                </div>
+              </div>
+              <
+        <!-- Contacto -->
+        <section id="contacto" class="contacto seccion-oscura">
+          <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+              <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                  ¡Hablemos!
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+                  Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+                </div>
+                <div class="col-12 col-md-4">
+                  <a href="mailto:janedoe@micorreo.com">
+                    <button type="button">  
+                      Contacto
+                      <i class="bi bi-envelope-check-fill"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Pie de pagina (footer) -->
+        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+          <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+          <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+          <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/freecodecampES" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/freecodecamp/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-envelope"></i>
+            </a>
+          </div>
+          <div class="derechos-de-autor">Creado por ALEJANDRO PONCE(2022) &#169;</div>
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      </body>
+    </html>
